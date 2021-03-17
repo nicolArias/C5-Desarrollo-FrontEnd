@@ -1,0 +1,22 @@
+h1{
+    background-color: goldenrod;
+    font-size: 25px;
+}
+
+h2{
+    color: mediumblue;
+    font-size: 30px;
+}
+
+div{
+    background-color: khaki;
+    width: 70%;
+}
+
+em{
+    color: mediumturquoise;
+}
+
+.elemento{
+    color: royalblue;
+}

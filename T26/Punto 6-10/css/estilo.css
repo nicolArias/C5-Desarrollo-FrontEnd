@@ -1,0 +1,85 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+.imagen {
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: auto;
+    height: 171px;
+    margin-top: 20px;
+    
+    background-image: url("../imagenes/panoramica.jpg");
+    background-size:contain;
+    /*background-image: radial-gradient(solid,transparent), url("imagenes/2740376079_985d7874fc_o.jpg");*/
+}
+.parent-container {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-end;
+}
+ul {
+    float: left;
+    margin-right: 50px;
+    list-style: none;
+}
+li a{
+    text-align: center;
+    color: #333;
+    display: block;
+    padding: .3em;
+    margin-bottom: 10px;
+    background-color:rgb(198, 238, 119);
+    text-decoration: none;
+    border: 1px solid black;
+    width: 95px;
+    
+}
+li a:hover{
+    background-color:peru;
+}
+
+h1 {
+    color:olivedrab;
+    text-align: center;
+}
+
+h2 {
+    color:limegreen;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: silver;
+}
+h1 span.title-name {
+    color:chocolate;
+}
+
+h3 {
+    color:chocolate;
+}
+.parent-container > div {
+    max-width: 660px;
+    display: inline-block;
+    flex-flow: column wrap;
+    /*flex-wrap: left wrap;
+    justify-content: left;*/
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    padding: 20px;
+    
+}
+.container {
+    background-image: linear-gradient( rgb(228, 228, 228), white,white,white, white, white,rgb(228, 228, 228));
+}
+footer {
+    font-style: italic;
+    text-align: center;
+    color: silver;
+}
+.underlined{
+    text-decoration: underline;
+}
