@@ -1,0 +1,29 @@
+.imagenes{
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 40px;
+    background-color: rgb(20, 19, 20);
+}
+
+.imagenes img{
+    width: 40%;
+    margin: 10px;
+ 
+}
+
+.imagenCompleta{
+    float:right;
+    width: 70%;
+   margin: 10px;
+}
+.imagenCompleta img{
+    width: 60%;
+}
+.pieFoto{
+    margin: 5px;
+    margin-left: 20%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+}
