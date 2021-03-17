@@ -1,0 +1,22 @@
+table{
+    border-color: silver;
+    color: darkred;
+    text-align: center;
+    
+}
+
+#titulo{
+    background-color: darkgreen;
+}
+
+.opciones{
+    background-color: darksalmon;
+}
+
+.subopcion{
+    background-color: gold;
+}
+
+td{
+  background-color: khaki;
+}
