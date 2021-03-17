@@ -1,0 +1,53 @@
+table{
+    width: 100%;
+    border: 1px solid;
+ 
+    margin: auto;
+    padding: inherit;
+}
+div{
+    text-align: center;
+}
+thead{
+    background-color: rgb(115, 243, 173);
+    font-style:initial;
+    font-size: 15px;
+    color: rgb(10, 10, 10);
+  
+}
+th,td{
+    width: 25%;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #000;
+    border-spacing: 0;
+   
+}
+
+.celda2{
+    background-color: rgb(102, 237, 241);
+    text-align: left;
+    font-weight: bold;
+}
+
+.celdacentro{
+    color:red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.celda7y4{
+    text-align: center;
+    font-weight: bold;
+}
+
+.celda6{
+    text-align: right;
+    font-weight: bold;
+    background-color: rgb(255, 149, 223);
+}
+
+caption{
+    font-weight: bold;
+}
+
