@@ -1,0 +1,21 @@
+.divTabla{
+    width: 100%;
+}
+.titulo{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 113, 224);
+    font-size: 20px;
+}
+.table{
+    width: 100%;
+}
+
+.buscar{
+    float:right;
+}
+
+.paginacion{
+    float: right;
+}
+

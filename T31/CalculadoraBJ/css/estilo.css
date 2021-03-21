@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(36, 206, 197);
+}
+
+.cal{
+    width:600px;
+    background-color: rgb(36, 206, 197);
+    margin-left: 30%;
+}
+
+
+button.btn1{
+    background-color: rgb(151, 134, 120);
+    padding: 40px;
+}
+
+button.btn2{
+    background-color: rgb(11, 168, 160); 
+    padding: 20.5px;
+}
+
+.btn-group .btn1{
+    width: 100%;
+}
+
+.divInput{
+    width: 64%;
+
+}
+.container input{
+    border: none;
+}
+
+input{
+    text-align: right;
+}
+.input input{
+    border: none;
+    font-family: arial;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    text-align: right;
+}
+
+.container button{
+    BORDER: none;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .row button:hover{
+    color: #ffffff;
+    background-color: #5e5553;
+    text-decoration: none;
+  }
+
